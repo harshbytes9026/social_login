@@ -39,6 +39,9 @@ target 'SocialLogin' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'GoogleUtilities', :modular_headers => true
+  pod 'FirebaseCoreInternal', :modular_headers => true
+
   target 'SocialLoginTests' do
     inherit! :complete
     # Pods for testing
