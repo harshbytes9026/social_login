@@ -426,6 +426,7 @@ ios/.xcode.env.local
 .gradle
 android/.gradle
 # android/
+.yarn
 android/app/build
 android/build
 build/
